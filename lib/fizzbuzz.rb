@@ -1,7 +1,9 @@
 class FizzBuzz
 
   def play(number)
-    if is_divisible_by_5(number)
+    if number % 15 == 0
+      'FizzBuzz'
+    elsif is_divisible_by_5(number)
       'Buzz'
     else
       'Fizz'
