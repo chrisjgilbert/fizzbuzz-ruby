@@ -5,8 +5,10 @@ class FizzBuzz
       'FizzBuzz'
     elsif is_divisible_by_5(number)
       'Buzz'
-    else
+    elsif number % 3 == 0
       'Fizz'
+    else
+      number
     end
   end
 
