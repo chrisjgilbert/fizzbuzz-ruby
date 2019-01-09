@@ -1,7 +1,11 @@
 class FizzBuzz
 
   def play(number)
-    'Fizz'
+    if number % 5 == 0
+      'Buzz'
+    else 
+      'Fizz'
+    end
   end
 
 end
