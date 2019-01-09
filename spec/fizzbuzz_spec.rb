@@ -10,6 +10,10 @@ describe FizzBuzz do
     it 'returns Buzz if number is divisible by 5' do
       expect(subject.play(5)).to eq 'Buzz'
     end
+
+    it 'returns FizzBuzz if number is divisible by 15' do
+      expect(subject.play(15)).to eq 'FizzBuzz'
+    end
   end
 
 end
