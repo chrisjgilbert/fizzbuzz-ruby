@@ -14,6 +14,10 @@ describe FizzBuzz do
     it 'returns FizzBuzz if number is divisible by 15' do
       expect(subject.play(15)).to eq 'FizzBuzz'
     end
+
+    it 'returns number if number not divisible by 3, 5, 15' do
+      expect(subject.play(7)).to eq 7
+    end
   end
 
 end
